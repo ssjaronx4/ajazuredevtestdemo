@@ -57,7 +57,7 @@
         {
           "name": "[variables('endpointName')]",
           "type": "endpoints",
-          "location": "[resourceGroup().location]",
+          "location": "North Europe",
           "apiVersion": "2016-04-02",
           "dependsOn": [
             "[variables('profileName')]",
